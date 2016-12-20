@@ -32,4 +32,14 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="111dp"
         android:text="TextView" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="31dp"
+        android:id="@+id/textView3" />
 </RelativeLayout>
