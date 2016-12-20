@@ -16,7 +16,7 @@ public class MainActivity extends Activity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "点击了button",0).show();
+                Toast.makeText(MainActivity.this, "点击了button", Toast.LENGTH_SHORT).show();
             }
         });
     }
